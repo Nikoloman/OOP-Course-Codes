@@ -9,4 +9,10 @@ public class UberX extends Car{
         this.brand = brand;
         this.model = model;
     }
+
+    @Override
+    public void setDriver(Account driver) {
+        super.setDriver(driver);
+        System.out.println("Modelo: " + model + " Brand: " + brand);
+    }
 }
